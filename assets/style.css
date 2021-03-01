@@ -1,0 +1,105 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {background-color:#000203;}
+
+p {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(108, 139, 168);
+    font-size: 20px;
+    text-align: center;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+.navbar {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  background: #000203;
+}
+
+.navbar h1 {
+    padding-left: 100px;
+    padding-right: 30px;
+    background-color: #3226e6;
+    color: rgb(102, 172, 230);
+    display: inline-block;
+    font-size: 48px;
+}
+.navbar ul {
+    list-style-type: none;
+}
+ul li {
+    color: turquoise;
+    display: inline-block;
+    margin-left: 25px;
+    vertical-align: middle
+    ;
+}
+ul li a {
+    color: rgb(161, 164, 170)
+}
+.navbar nav {
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;}
+
+.hero {
+    height: 300px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url(https://images.pexels.com/photos/5278835/pexels-photo-5278835.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500);
+    background-size: cover;
+    background-position: center;
+}
+.hero p {
+    align-items: center;
+    vertical-align: bottom;
+    background-color: #000203;
+    color: rgb(102, 172, 230);
+    display: inline-block;
+    font-size: 48px;
+}
+
+h2 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(108, 139, 168);
+    font-size: 80px;
+    text-align: center;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+.center {display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 200px;
+    width: 200px;
+}
+
+.primary-app {
+    flex: 1 0 0;
+    padding: 10px;
+    text-align: center;
+    border-style: solid;
+    border-width: 1px;
+    width: 50%;
+}
+
+.apps {
+    flex: 1 0 0;
+    padding: 10px;
+    text-align: center;
+    border-style: solid;
+    border-width: 1px;
+    width: 25%;
+}
+
+.button {transition-duration: 0.4s;}
+.button:hover {background-color: violet;}
